@@ -15,9 +15,9 @@ def predict_datapoint():
         data=CustomData(
             gender=request.form.get('gender'),
             ethnicity=request.form.get('race/ethnicity'),
-            parental_level_of_education=request.form.get('parental_level_of_education'),
+            parental_level_of_education=request.form.get('parental level of education'),
             lunch=request.form.get('lunch'),
-            test_preparation_course=request.form.get('test_preparation_course'),
+            test_preparation_course=request.form.get('test preparation course'),
             reading_score=float(request.form.get('reading_score')),
             writing_score=float(request.form.get('writing_score')),
             math_score=float(request.form.get('math_score'))
